@@ -1,0 +1,20 @@
+{
+  "name": "odds-backend",
+  "version": "1.0.0",
+  "description": "Odds.fun backend: Solana-native prediction & betting with ZK-ready receipts",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "express": "^4.19.2",
+    "nanoid": "^5.0.7",
+    "better-sqlite3": "^9.6.0"
+  }
+}
